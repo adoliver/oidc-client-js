@@ -5,16 +5,22 @@ function createWebpackConfig(options) {
     entry: options.entry,
     output: options.output,
     plugins: options.plugins,
-    node: {
-      fs: 'empty', // Because of jsrsasign usage of fs
-      buffer: 'empty'
-    },
+		resolve: {
+			fallback: {
+				fs: false, // Because of jsrsasign usage of fs
+				buffer: false
+			}
+		},
     module: {
       rules: [
         {
           test: /.js$/,
-          loaders: ['babel-loader'],
-          exclude: /node_modules/,
+          use: [
+						{
+							loader: 'babel-loader'
+						}
+					],
+					exclude: /node_modules/,
           include: __dirname
         }
       ]
