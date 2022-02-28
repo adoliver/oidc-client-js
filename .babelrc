@@ -1,8 +1,8 @@
 {
-    "presets": ["es2015"],
+    "presets": ["@babel/preset-env"],
     "plugins": [
-        "babel-plugin-add-module-exports", 
-        ["transform-es2015-classes", {
+        "add-module-exports", 
+        ["@babel/plugin-transform-classes", {
             "loose": true
         }]
     ]
