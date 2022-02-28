@@ -30,11 +30,11 @@
   },
   "homepage": "https://github.com/IdentityModel/oidc-client-js",
   "dependencies": {
-    "acorn": "^7.4.1",
+    "acorn": "^8.7.0",
     "base64-js": "^1.5.1",
-    "core-js": "^3.8.3",
-    "crypto-js": "^4.0.0",
-    "serialize-javascript": "^4.0.0"
+    "core-js": "^3.21.1",
+    "crypto-js": "^4.1.1",
+    "serialize-javascript": "^6.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.7.2",
@@ -50,7 +50,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.4.0",
     "jsbn": "^1.1.0",
-    "jsrsasign": "^10.3.0",
+    "jsrsasign": "^10.5.8",
     "mocha": "^5.2.0",
     "natives": "^1.1.6",
     "open": "^6.4.0",
