@@ -10,7 +10,7 @@ var TerserPlugin = require('terser-webpack-plugin');
 
 // entry points for both configs
 var npmEntry ='./index.js';
-var classicEntry = ['babel-polyfill', npmEntry];
+var classicEntry = ['@babel/polyfill', npmEntry];
 
 const optimization = {
   minimizer: [new TerserPlugin({
