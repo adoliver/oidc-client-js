@@ -1,5 +1,5 @@
 /*
- * jsrsasign(all) 8.0.12 (2018-04-22) (c) 2010-2018 Kenji Urushima | kjur.github.com/jsrsasign/license
+ * jsrsasign(all) 10.5.8 (2022-02-25) (c) 2010-2021 Kenji Urushima | kjur.github.io/jsrsasign/license
  */
 
 var navigator = {};

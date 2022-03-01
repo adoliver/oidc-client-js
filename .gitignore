@@ -7,6 +7,10 @@
 *.sln.docstates
 .idea/
 
+# Vim temp files
+*.swp 
+*.swo
+
 # Build results
 
 [Dd]ebug/
